@@ -6,7 +6,7 @@ class SinhVien {
 
     constructor() {}
     constructor(m: Int, t: String) {
-        ma = m
+        this.ma = m
         ten = t
     }
 

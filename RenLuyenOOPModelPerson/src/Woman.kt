@@ -1,3 +1,5 @@
+import java.util.*
+
 class Woman : Person() {
     private var wearingMakeup: Boolean = false
     public var WearingMakeup: Boolean
@@ -7,4 +9,8 @@ class Woman : Person() {
         set(value) {
             wearingMakeup = value
         }
+
+    override fun setDateOfBirth(dob: Date) {
+        super.setDateOfBirth(dob)
+    }
 }

@@ -7,4 +7,9 @@ fun main() {
     sv1.Ma = 113
     sv1.Ten = "Nguyen Hoang Anh"
     println("${sv1.Ma} - ${sv1.Ten}")
+    var student:Student = Student()
+    student.ma = 2
+    student.hashCode()
+
+    println(student.toString())
 }

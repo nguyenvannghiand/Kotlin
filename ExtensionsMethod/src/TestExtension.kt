@@ -39,6 +39,6 @@ fun main() {
     calendar.set(Calendar.MONTH, 11)
     calendar.set(Calendar.DAY_OF_YEAR, 20)
     var sv1 = SinhVien(calendar.time)
-    println("Tuoi cua sv1: ${sv1.Tuoi()}")
+//    println("Tuoi cua sv1: ${sv1.Tuoi()}")
 
 }

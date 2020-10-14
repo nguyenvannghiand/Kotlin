@@ -6,6 +6,9 @@ class SinhVien {
     constructor(namSinh: Date?){
         this.namSinh = namSinh
     }
+    public fun iun():Int{
+        return 5
+    }
 
 
 }

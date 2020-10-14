@@ -3,8 +3,4 @@ class MyClass: MyInterface {
         println("day la noi dung doAble cua MyClass")
     }
 
-    override fun makeAble() {
-        super.makeAble()
-        println("MakeAble cua MyClass")
-    }
 }
